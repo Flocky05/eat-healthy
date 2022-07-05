@@ -1,3 +1,6 @@
+.body{
+    margin: 0;
+}
 .skip{
     color: orange;
 }
@@ -14,7 +17,7 @@
     margin-top: 100px;
 }
 
-.button{
+.link-button{
    background-image: linear-gradient(tomato, orange);
     font-size: 18px;
     padding: 10px 20px;
@@ -39,10 +42,30 @@
     width: 100%;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
+    padding: 5%;
     
 }
 .image-container{
     display: flex;
     justify-content: center;
+}
+.mid-image img{
+    width: 55%;
+    margin-left: 50px;
+}
+
+.section-background{
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.recipies{
+    justify-content: center;
+    text-align: center;
+    
+}
+.recipies-text{
+    width: 50%;
+    margin:0 auto;
 }
