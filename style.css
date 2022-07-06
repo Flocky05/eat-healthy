@@ -69,3 +69,46 @@
     width: 50%;
     margin:0 auto;
 }
+.recipie-title{
+    display: flex;
+
+}
+.recipie-title img{
+    width: 100%;
+}
+.recipie-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 30px;
+    padding: 30px;
+}
+.youtube{
+    display: flex;
+    justify-content: center;
+    margin-top: 5cm;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 100px;
+    
+
+}
+.youtube h1{
+    font-size: 50px;
+}
+.youtube div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.eat{
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
